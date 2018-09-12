@@ -12,7 +12,25 @@
         android:id="@+id/bu_countdownlatch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CountDownLatch" />
+        android:text="CountDownLatch 无序" />
+
+    <Button
+        android:id="@+id/bu_rxjava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava flatMap toList 无序" />
+
+    <Button
+        android:id="@+id/bu_rxjava2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava zip 有序" />
+
+    <Button
+        android:id="@+id/bu_rxjava3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RxJava merge toList 无序" />
 
     <TextView
         android:id="@+id/tv_console"
