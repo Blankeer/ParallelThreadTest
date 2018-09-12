@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         thread {
             array.forEach {
                 thread {
+                    Thread.sleep(Random().nextInt(5000).toLong())
                     val res = it.toString()
                     result.add(res)
                     log(res)
